@@ -1,0 +1,22 @@
+{
+  "name": "qa-luma-store",
+  "version": "1.0.0",
+  "description": "Este é um desafio para que possamos ver as suas habilidades como QA/Tester.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielepaz404/qa-luma-store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielepaz404/qa-luma-store/issues"
+  },
+  "homepage": "https://github.com/danielepaz404/qa-luma-store#readme",
+  "devDependencies": {
+    "cypress": "^14.5.3"
+  }
+}
