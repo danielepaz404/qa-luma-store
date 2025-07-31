@@ -9,9 +9,9 @@ describe('Account Creation', function () {
         cy.get('.form-create-account').fillForm({
             firstname: u.name.first,
             lastname: u.name.last,
-            email_address: u.email,
+            email: u.email,
             password: u.login.password,
-            'password-confirmation': u.login.password
+            password_confirmation: u.login.password
         }).find('button.submit').click();
 
         cy.url().should('include', '/customer/account/');

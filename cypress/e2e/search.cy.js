@@ -4,7 +4,8 @@ describe('Search Flow', () => {
     it('searches for "shirt" and shows results', () => {
         cy.searchForTerm('shirt')
             .its('response.statusCode').should('eq', 200);
-        cy.get('.results').should('be.visible');
+
+        cy.get('.product-items').should('be.visible');
     });
 
     it('clicks the last autocomplete suggestion', () => {
