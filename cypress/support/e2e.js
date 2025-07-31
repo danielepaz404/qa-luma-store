@@ -3,3 +3,5 @@ import './commands/product'
 import './commands/cart'
 import './commands/checkout'
 import './commands/utils'
+
+import 'cypress-mochawesome-reporter/register'
