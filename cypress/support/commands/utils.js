@@ -7,7 +7,7 @@ Cypress.Commands.add(
                 cy.get(`input[name='${field}']`)
                     .should('be.visible')
                     .clear()
-                    .type(value)
+                    .type(value, { parseSpecialCharSequences: false })
             })
         })
         return cy.wrap(subject);
