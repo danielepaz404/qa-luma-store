@@ -1,3 +1,5 @@
+[![Cypress Tests](https://github.com/danielepaz404/qa-luma-store/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/danielepaz404/qa-luma-store/actions/workflows/main.yml)
+
 >  This is a challenge by [Coodesh](https://coodesh.com/)
 
 # Q.A Challenge Luma Store
